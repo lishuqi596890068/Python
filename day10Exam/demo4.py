@@ -14,4 +14,21 @@ while bool:
         bool = True
     elif YorN == 'exit':
         bool = False
+        f.close()
         print("成功退出程序")
+# bool=True
+# str=''
+# while bool:
+#     name=input("请输入您的姓名：")
+#     password=input("请输入您的密码：")
+#     address=input("请输入您的住址：")
+#     str+="姓名是："+name+'住址是：'+address
+#     f=open("user.txt",'w')
+#     f.write(str)
+#     pro=input("继续输入Y 退出输入 exit：")
+#     if pro=="Y":
+#         bool=True
+#     elif pro=="exit":
+#         bool=False
+#         print("退出程序成功")
+

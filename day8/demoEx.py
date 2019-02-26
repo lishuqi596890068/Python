@@ -82,7 +82,7 @@ def bei(list):
         if i % 5 ==0:
             wu.append(i)
     print(wu)
-    
+
 l = []
 for i in range(1000):
     l.append(random.randrange(1,100))
